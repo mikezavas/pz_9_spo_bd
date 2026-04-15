@@ -33,7 +33,6 @@ if __name__ == "__main__":
     db_courses.insert({'student_id': 2, 'subject': 'Economics'})
 
     print("\nINNER JOIN:")
-    # Передаем полные имена таблиц в условиях и колонках
     join_res = db.join_query(
         TBL_COURSES,
         f'{TBL_STUDENTS}.id = {TBL_COURSES}.student_id',

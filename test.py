@@ -1,12 +1,5 @@
 from main import SQLTable
 
-db_config = {
-    'host': 'srv221-h-st.jino.ru',
-    'user': 'j30084097_13418',
-    'password': 'pPS090207/()',
-    'database': 'j30084097_13418',
-    'port': 3306
-}
 
 if __name__ == "__main__":
     TBL_STUDENTS = 'test_students'
